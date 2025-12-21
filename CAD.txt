@@ -1,2 +1,6 @@
 ##----- Capacity Availability Document -----##
 LBSF,22
+LBWN,20
+LBBG,20
+LBPD,6
+LBGO,6
