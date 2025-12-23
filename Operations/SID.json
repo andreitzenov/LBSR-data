@@ -1,0 +1,72 @@
+{
+  "version": 23122025,
+  "airports": {
+    "LBSF": {
+      "runways": {
+        "27": {
+          "rnav": [
+            "GODEK3T",
+            "OGOTA3T",
+            "GOL3T",
+            "UMPIT3T",
+            "GAPVO3T",
+            "DEDIN3T",
+            "RUMEN3T",
+            "DILVO3T",
+            "OMENO3T",
+            "NAPET3T"
+          ],
+          "nonrnav": [
+            "DEDIN3W",
+            "DILVO3W",
+            "GAPVO3W",
+            "GODEK6E",
+            "GOL6E",
+            "OGOTA6E",
+            "OMENO3W",
+            "RUMEN4W",
+            "UMPIT3W"
+          ]
+        },
+        "09": {
+          "rnav": [
+            "GODEK3S",
+            "OGOTA4S",
+            "GOL4S",
+            "UMPIT4S",
+            "GAPVO3S",
+            "DEDIN3S",
+            "RUMEN3S",
+            "DILVO3S",
+            "OMENO3S",
+            "NAPET3S"
+          ],
+          "nonrnav": [
+            "DEDIN3V",
+            "DILVO6A",
+            "GAPVO3V",
+            "GODEK6A",
+            "GOL5A",
+            "OGOTA6A",
+            "OMENO4V",
+            "RUMEN7A",
+            "UMPIT3V"
+          ]
+        }
+      }
+    },
+
+    "LBWN": {
+      "runways": {
+        "09": {
+          "rnav": [],
+          "nonrnav": []
+        },
+        "27": {
+          "rnav": [],
+          "nonrnav": []
+        }
+      }
+    }
+  }
+}
