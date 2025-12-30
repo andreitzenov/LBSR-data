@@ -1,33 +1,8 @@
 {
-  "version": 23122025,
+  "version": 30122025,
   "airports": {
     "LBSF": {
       "runways": {
-        "27": {
-          "rnav": [
-            "GODEK3T",
-            "OGOTA3T",
-            "GOL3T",
-            "UMPIT3T",
-            "GAPVO3T",
-            "DEDIN3T",
-            "RUMEN3T",
-            "DILVO3T",
-            "OMENO3T",
-            "NAPET3T"
-          ],
-          "nonrnav": [
-            "DEDIN3W",
-            "DILVO3W",
-            "GAPVO3W",
-            "GODEK6E",
-            "GOL6E",
-            "OGOTA6E",
-            "OMENO3W",
-            "RUMEN4W",
-            "UMPIT3W"
-          ]
-        },
         "09": {
           "rnav": [
             "GODEK3S",
@@ -52,6 +27,31 @@
             "RUMEN7A",
             "UMPIT3V"
           ]
+        },
+        "27": {
+          "rnav": [
+            "GODEK3T",
+            "OGOTA3T",
+            "GOL3T",
+            "UMPIT3T",
+            "GAPVO3T",
+            "DEDIN3T",
+            "RUMEN3T",
+            "DILVO3T",
+            "OMENO3T",
+            "NAPET3T"
+          ],
+          "nonrnav": [
+            "DEDIN3W",
+            "DILVO3W",
+            "GAPVO3W",
+            "GODEK6E",
+            "GOL6E",
+            "OGOTA6E",
+            "OMENO3W",
+            "RUMEN4W",
+            "UMPIT3W"
+          ]
         }
       }
     },
@@ -59,11 +59,103 @@
     "LBWN": {
       "runways": {
         "09": {
-          "rnav": [],
+          "rnav": [
+            "BALIK4N",
+            "DICXA1N",
+            "IVGOT2N",
+            "NEDSI2N",
+            "RUTAR4N"
+          ],
           "nonrnav": []
         },
         "27": {
-          "rnav": [],
+          "rnav": [
+            "BALIK3P",
+            "DICXA1P",
+            "IVGOT4P",
+            "NEDSI3P",
+            "RUTAR4P"
+          ],
+          "nonrnav": []
+        }
+      }
+    },
+
+    "LBBG": {
+      "runways": {
+        "04": {
+          "rnav": [
+            "ARNOV2S",
+            "BUVAK2S",
+            "GONGO1S",
+            "MEDEM3S",
+            "RUEXX1S",
+            "TUGSO1S",
+            "XILTI2S"
+          ],
+          "nonrnav": []
+        },
+        "22": {
+          "rnav": [
+            "ARNOV4V",
+            "BUVAK2V",
+            "GONGO2V",
+            "RUEXX1V",
+            "TUGSO1V",
+            "MEDEM2V",
+            "MEDEM2T",
+            "XILTI2V",
+            "XILTI2T"
+          ],
+          "nonrnav": []
+        }
+      }
+    },
+
+    "LBPD": {
+      "runways": {
+        "12": {
+          "rnav": [
+            "ROVDO2B",
+            "RUMEN3B",
+            "RUMEN3K"
+          ],
+          "nonrnav": [
+            "ROVDO3A",
+            "RUMEN4A",
+            "RUMEN4V"
+          ]
+        },
+        "30": {
+          "rnav": [
+            "ROVDO2F",
+            "ROVDO2L",
+            "RUMEN2F",
+            "RUMEN2L"
+          ],
+          "nonrnav": [
+            "ROVDO3E",
+            "RUMEN4E",
+            "RUMEN4W"
+          ]
+        }
+      }
+    },
+
+    "LBGO": {
+      "runways": {
+        "09": {
+          "rnav": [
+            "AMTOV1S",
+            "DELIN1S"
+          ],
+          "nonrnav": []
+        },
+        "27": {
+          "rnav": [
+            "AMTOV1T",
+            "DELIN1T"
+          ],
           "nonrnav": []
         }
       }
