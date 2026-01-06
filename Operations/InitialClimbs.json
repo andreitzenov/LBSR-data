@@ -1,0 +1,42 @@
+{
+  "airports": {
+    "LBSF": {
+      "waypoints": {
+        "GODEK": 24000,
+        "OGOTA": 24000,
+        "GOL": 23000,
+        "UMPIT": 23000,
+        "GAPVO": 23000,
+        "DEDIN": 23000,
+        "RUMEN": 23000,
+        "DILVO": 23000,
+        "OMENO": 23000,
+        "NAPET": 24000
+      }
+    },
+    "LBWN": {
+      "waypoints": {
+        "BALIK": 16000,
+        "DICXA": 16000,
+        "IVGOT": 17000,
+        "NEDSI": 17000,
+        "RUTAR": 17000
+      }
+    },
+    "LBBG": {
+      "default": 6000
+    },
+    "LBPD": {
+      "waypoints": {
+        "ROVDO": 13000,
+        "RUMEN": 12000
+      }
+    },
+     "LBGO": {
+      "waypoints": {
+        "AMTOV": 13000,
+        "DELIN": 12000
+      }
+    }
+  }
+}
