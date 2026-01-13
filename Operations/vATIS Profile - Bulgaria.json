@@ -1,8 +1,8 @@
 {
   "name": "Bulgaria",
   "id": "f2779102-cdce-40cc-8c46-45d3f1408e0e",
-  "updateUrl": "https://raw.githubusercontent.com/andreitzenov/LBSR-atis/refs/heads/main/vATIS%20Profile%20-%20Bulgaria.json",
-  "updateSerial": 2025112901,
+  "updateUrl": "https://raw.githubusercontent.com/andreitzenov/LBSR-data/refs/heads/main/Operations/vATIS%20Profile%20-%20Bulgaria.json",
+  "updateSerial": 2026011301,
   "composites": [
     {
       "id": "5349f49e-4119-4d32-a2e0-85540598c5c1",
