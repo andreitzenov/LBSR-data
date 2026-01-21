@@ -2,7 +2,7 @@
   "name": "Bulgaria",
   "id": "f2779102-cdce-40cc-8c46-45d3f1408e0e",
   "updateUrl": "https://raw.githubusercontent.com/andreitzenov/LBSR-data/refs/heads/main/Operations/vATIS%20Profile%20-%20Bulgaria.json",
-  "updateSerial": 2026011301,
+  "updateSerial": 2026012201,
   "composites": [
     {
       "id": "5349f49e-4119-4d32-a2e0-85540598c5c1",
@@ -956,7 +956,7 @@
         "low": "A",
         "high": "Z"
       },
-      "frequency": 127205000,
+      "frequency": 129215000,
       "atisVoice": {
         "useTextToSpeech": true,
         "voice": "UK Male"
@@ -1264,7 +1264,7 @@
     },
     {
       "id": "975daa48-cca4-4090-869a-4f1da2fba6d3",
-      "name": "Gorna",
+      "name": "Gorna Oryahovitsa Airport",
       "identifier": "LBGO",
       "atisType": "Combined",
       "codeRange": {

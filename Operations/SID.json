@@ -146,14 +146,14 @@
       "runways": {
         "09": {
           "rnav": [
-            "AMTOV1S",
-            "DELIN1S"
+            "AMTOV2S",
+            "DELIN2S"
           ],
           "nonrnav": []
         },
         "27": {
           "rnav": [
-            "AMTOV1T",
+            "AMTOV2T",
             "DELIN1T"
           ],
           "nonrnav": []
