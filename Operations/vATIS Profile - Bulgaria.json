@@ -65,7 +65,7 @@
       ],
       "notamDefinitions": [
         {
-          "text": "FOR CLEARANCE DELIVERY CONTACT 120.2",
+          "text": "FOR CLEARANCE DELIVERY CONTACT 127.255",
           "ordinal": 1,
           "enabled": false
         },
