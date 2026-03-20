@@ -1,5 +1,5 @@
 {
-  "version": 30122025,
+  "version": 19032026,
   "airports": {
     "LBSF": {
       "runways": {
@@ -60,9 +60,9 @@
       "runways": {
         "09": {
           "rnav": [
-            "BALIK4N",
-            "DICXA1N",
-            "IVGOT2N",
+            "BALIK5N",
+            "DICXA2N",
+            "IVGOT3N",
             "NEDSI2N",
             "RUTAR4N"
           ],
@@ -70,10 +70,10 @@
         },
         "27": {
           "rnav": [
-            "BALIK3P",
-            "DICXA1P",
+            "BALIK4P",
+            "DICXA2P",
             "IVGOT4P",
-            "NEDSI3P",
+            "NEDSI4P",
             "RUTAR4P"
           ],
           "nonrnav": []
