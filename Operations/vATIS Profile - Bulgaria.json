@@ -2,7 +2,7 @@
   "name": "Bulgaria",
   "id": "f2779102-cdce-40cc-8c46-45d3f1408e0e",
   "updateUrl": "https://raw.githubusercontent.com/andreitzenov/LBSR-data/refs/heads/main/Operations/vATIS%20Profile%20-%20Bulgaria.json",
-  "updateSerial": 2026012201,
+  "updateSerial": 2026041001,
   "composites": [
     {
       "id": "5349f49e-4119-4d32-a2e0-85540598c5c1",
@@ -27,9 +27,9 @@
         {
           "id": "58dbff60-8fca-430d-9eb8-355623b60c2d",
           "name": "RUNWAY 27",
-          "airportConditions": "ILS Z APPR, RWY IN USE 27, TRANSITION LEVEL ONE TWO ZERO",
+          "airportConditions": "ILS Z APPR, RWY IN USE 27, TRANSITION LEVEL ONE TWO ZERO.",
           "notams": "",
-          "template": "THIS IS SOFIA INFORMATION [ATIS_CODE]. ATIS REPORT AT [OBS_TIME]. [ARPT_COND]. [NOTAMS] WIND RWY 27 TOUCHDOWN ZONE [FULL_WX_STRING]. ADVISE YOU HAVE RECEIVED INFORMATION [ATIS_CODE].",
+          "template": "THIS IS SOFIA INFORMATION [ATIS_CODE]. ATIS REPORT AT [OBS_TIME]. [ARPT_COND]. WIND RWY 27 TOUCHDOWN ZONE [FULL_WX_STRING]. [NOTAMS] ADVISE YOU HAVE RECEIVED INFORMATION [ATIS_CODE].",
           "externalGenerator": {
             "enabled": false
           }
@@ -37,9 +37,9 @@
         {
           "id": "07606512-e214-42de-a676-367f71efa741",
           "name": "RUNWAY 09",
-          "airportConditions": "ILS Z APPR, RWY IN USE 09, TRANSITION LEVEL ONE TWO ZERO",
+          "airportConditions": "ILS Z APPR, RWY IN USE 09, TRANSITION LEVEL ONE TWO ZERO.",
           "notams": "",
-          "template": "THIS IS SOFIA INFORMATION [ATIS_CODE]. ATIS REPORT AT [OBS_TIME]. [ARPT_COND]. [NOTAMS] WIND RWY 09 TOUCHDOWN ZONE [FULL_WX_STRING]. ADVISE YOU HAVE RECEIVED INFORMATION [ATIS_CODE].",
+          "template": "THIS IS SOFIA INFORMATION [ATIS_CODE]. ATIS REPORT AT [OBS_TIME]. [ARPT_COND]. WIND RWY 09 TOUCHDOWN ZONE [FULL_WX_STRING]. [NOTAMS] ADVISE YOU HAVE RECEIVED INFORMATION [ATIS_CODE].",
           "externalGenerator": {
             "enabled": false
           }
@@ -53,13 +53,18 @@
       ],
       "airportConditionDefinitions": [
         {
-          "text": "RCR: 0000Z RWYCC 5/5/5",
+          "text": "ATC LOW VISIBILITY PROCEDURES IN OPERATION",
           "ordinal": 1,
+          "enabled": false
+        },
+	{
+          "text": "RCR: 0000Z RWYCC 5/5/5",
+          "ordinal": 2,
           "enabled": false
         },
         {
           "text": "TDZ: 100% WET. MID: 100% WET. END: 100% WET",
-          "ordinal": 2,
+          "ordinal": 3,
           "enabled": false
         }
       ],
@@ -303,8 +308,8 @@
         },
         "notams": {
           "template": {
-            "text": "NOTAMS... {notams}.",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}."
+            "text": "{notams}.",
+            "voice": "{notams}."
           }
         },
         "closingStatement": {
@@ -339,7 +344,7 @@
         {
           "id": "459845fa-1b70-4fa5-8121-4a33a4411966",
           "name": "RUNWAY 27",
-          "airportConditions": "RNP APPR, RWY IN USE 27, TRANSITION LEVEL ONE TWO ZERO",
+          "airportConditions": "RNP APPR, RWY IN USE 27, TRANSITION LEVEL ONE TWO ZERO.",
           "notams": "",
           "template": "THIS IS VARNA INFORMATION [ATIS_CODE]. ATIS REPORT AT [OBS_TIME]. [ARPT_COND]. [NOTAMS] WIND RWY 27 TOUCHDOWN ZONE [FULL_WX_STRING]. ADVISE YOU HAVE RECEIVED INFORMATION [ATIS_CODE].",
           "externalGenerator": {
@@ -349,7 +354,7 @@
         {
           "id": "45fb0e4f-20cb-46c3-a2bb-f6154a42db77",
           "name": "RUNWAY 09",
-          "airportConditions": "ILS Z APPR, RWY IN USE 09, TRANSITION LEVEL ONE TWO ZERO",
+          "airportConditions": "ILS Z APPR, RWY IN USE 09, TRANSITION LEVEL ONE TWO ZERO.",
           "notams": "",
           "template": "THIS IS VARNA INFORMATION [ATIS_CODE]. ATIS REPORT AT [OBS_TIME]. [ARPT_COND]. [NOTAMS] WIND RWY 09 TOUCHDOWN ZONE [FULL_WX_STRING]. ADVISE YOU HAVE RECEIVED INFORMATION [ATIS_CODE].",
           "externalGenerator": {
@@ -373,13 +378,18 @@
       ],
       "airportConditionDefinitions": [
         {
-          "text": "RCR: 0000Z RWYCC 5/5/5",
+          "text": "ATC LOW VISIBILITY PROCEDURES IN OPERATION",
           "ordinal": 1,
+          "enabled": false
+        },
+	{
+          "text": "RCR: 0000Z RWYCC 5/5/5",
+          "ordinal": 2,
           "enabled": false
         },
         {
           "text": "TDZ: 100% WET. MID: 100% WET. END: 100% WET",
-          "ordinal": 2,
+          "ordinal": 3,
           "enabled": false
         }
       ],
@@ -618,8 +628,8 @@
         },
         "notams": {
           "template": {
-            "text": "NOTAMS... {notams}.",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}."
+            "text": "{notams}.",
+            "voice": "{notams}."
           }
         },
         "closingStatement": {
@@ -664,7 +674,7 @@
 	{
           "id": "1c879da6-4c0a-4b65-a0e1-0a2b785c2495",
           "name": "RUNWAY 04",
-          "airportConditions": "RNP APPR, RWY IN USE 04, TRANSITION LEVEL ONE TWO ZERO",
+          "airportConditions": "RNP APPR, RWY IN USE 04, TRANSITION LEVEL ONE TWO ZERO.",
           "notams": "",
           "template": "THIS IS BURGAS INFORMATION [ATIS_CODE]. ATIS REPORT AT [OBS_TIME]. [ARPT_COND]. [NOTAMS] WIND RWY 04 TOUCHDOWN ZONE [FULL_WX_STRING]. ADVISE YOU HAVE RECEIVED INFORMATION [ATIS_CODE].",
           "externalGenerator": {
@@ -674,7 +684,7 @@
         {
           "id": "2f5a7e24-973d-497f-b6a0-30607241d7d3",
           "name": "RUNWAY 22",
-          "airportConditions": "ILS APPR, RWY IN USE 22, TRANSITION LEVEL ONE TWO ZERO",
+          "airportConditions": "ILS APPR, RWY IN USE 22, TRANSITION LEVEL ONE TWO ZERO.",
           "notams": "",
           "template": "THIS IS BURGAS INFORMATION [ATIS_CODE]. ATIS REPORT AT [OBS_TIME]. [ARPT_COND]. [NOTAMS] WIND RWY 22 TOUCHDOWN ZONE [FULL_WX_STRING]. ADVISE YOU HAVE RECEIVED INFORMATION [ATIS_CODE].",
           "externalGenerator": {
@@ -694,13 +704,18 @@
       ],
       "airportConditionDefinitions": [
         {
-          "text": "RCR: 0000Z RWYCC 5/5/5",
+          "text": "ATC LOW VISIBILITY PROCEDURES IN OPERATION",
           "ordinal": 1,
+          "enabled": false
+        },
+	{
+          "text": "RCR: 0000Z RWYCC 5/5/5",
+          "ordinal": 2,
           "enabled": false
         },
         {
           "text": "TDZ: 100% WET. MID: 100% WET. END: 100% WET",
-          "ordinal": 2,
+          "ordinal": 3,
           "enabled": false
         }
       ],
@@ -934,8 +949,8 @@
         },
         "notams": {
           "template": {
-            "text": "NOTAMS... {notams}.",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}."
+            "text": "{notams}.",
+            "voice": "{notams}."
           }
         },
         "closingStatement": {
@@ -970,7 +985,7 @@
         {
           "id": "c2d9eca3-70f5-4935-8dff-f8f936507087",
           "name": "RUNWAY 12",
-          "airportConditions": "RNP APPR, RWY IN USE 12, TRANSITION LEVEL ONE TWO ZERO",
+          "airportConditions": "RNP APPR, RWY IN USE 12, TRANSITION LEVEL ONE TWO ZERO.",
           "template": "THIS IS PLOVDIV INFORMATION [ATIS_CODE]. ATIS REPORT AT [OBS_TIME]. [ARPT_COND]. [NOTAMS] WIND RWY 12 TOUCHDOWN ZONE [FULL_WX_STRING]. ADVISE YOU HAVE RECEIVED INFORMATION [ATIS_CODE].",
           "externalGenerator": {
             "enabled": false
@@ -979,7 +994,7 @@
         {
           "id": "310f47ef-6263-4a87-a0a0-1ed9349ba237",
           "name": "RUNWAY 30",
-          "airportConditions": "ILS X APPR, RWY IN USE 30, TRANSITION LEVEL ONE TWO ZERO",
+          "airportConditions": "ILS X APPR, RWY IN USE 30, TRANSITION LEVEL ONE TWO ZERO.",
           "template": "THIS IS PLOVDIV INFORMATION [ATIS_CODE]. ATIS REPORT AT [OBS_TIME]. [ARPT_COND]. [NOTAMS] WIND RWY 30 TOUCHDOWN ZONE [FULL_WX_STRING]. ADVISE YOU HAVE RECEIVED INFORMATION [ATIS_CODE].",
           "externalGenerator": {
             "enabled": false
@@ -994,13 +1009,18 @@
       ],
       "airportConditionDefinitions": [
         {
-          "text": "RCR: 0000Z RWYCC 5/5/5",
+          "text": "ATC LOW VISIBILITY PROCEDURES IN OPERATION",
           "ordinal": 1,
+          "enabled": false
+        },
+	{
+          "text": "RCR: 0000Z RWYCC 5/5/5",
+          "ordinal": 2,
           "enabled": false
         },
         {
           "text": "TDZ: 100% WET. MID: 100% WET. END: 100% WET",
-          "ordinal": 2,
+          "ordinal": 3,
           "enabled": false
         }
       ],
@@ -1249,8 +1269,8 @@
         },
         "notams": {
           "template": {
-            "text": "NOTAMS... {notams}.",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}."
+            "text": "{notams}.",
+            "voice": "{notams}."
           }
         },
         "closingStatement": {
@@ -1285,7 +1305,7 @@
         {
           "id": "77a6782d-809e-446d-b056-d69c28c484f0",
           "name": "RUNWAY 09",
-          "airportConditions": "RNP APPR, RWY IN USE 09, TRANSITION LEVEL ONE TWO ZERO",
+          "airportConditions": "RNP APPR, RWY IN USE 09, TRANSITION LEVEL ONE TWO ZERO.",
           "template": "THIS IS GORNA INFORMATION [ATIS_CODE]. ATIS REPORT AT [OBS_TIME]. [ARPT_COND]. [NOTAMS] WIND RWY 09 TOUCHDOWN ZONE [FULL_WX_STRING]. ADVISE YOU HAVE RECEIVED INFORMATION [ATIS_CODE].",
           "externalGenerator": {
             "enabled": false
@@ -1294,7 +1314,7 @@
         {
           "id": "3bbed136-0186-4fdf-b9e7-8f718748d323",
           "name": "RUNWAY 27",
-          "airportConditions": "RNP APPR, RWY IN USE 27, TRANSITION LEVEL ONE TWO ZERO",
+          "airportConditions": "RNP APPR, RWY IN USE 27, TRANSITION LEVEL ONE TWO ZERO.",
           "template": "THIS IS GORNA INFORMATION [ATIS_CODE]. ATIS REPORT AT [OBS_TIME]. [ARPT_COND]. [NOTAMS] WIND RWY 27 TOUCHDOWN ZONE [FULL_WX_STRING]. ADVISE YOU HAVE RECEIVED INFORMATION [ATIS_CODE].",
           "externalGenerator": {
             "enabled": false
@@ -1309,13 +1329,18 @@
       ],
       "airportConditionDefinitions": [
         {
-          "text": "RCR: 0000Z RWYCC 5/5/5",
+          "text": "ATC LOW VISIBILITY PROCEDURES IN OPERATION",
           "ordinal": 1,
+          "enabled": false
+        },
+	{
+          "text": "RCR: 0000Z RWYCC 5/5/5",
+          "ordinal": 2,
           "enabled": false
         },
         {
           "text": "TDZ: 100% WET. MID: 100% WET. END: 100% WET",
-          "ordinal": 2,
+          "ordinal": 3,
           "enabled": false
         }
       ],
@@ -1554,8 +1579,8 @@
         },
         "notams": {
           "template": {
-            "text": "NOTAMS... {notams}.",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}."
+            "text": "{notams}.",
+            "voice": "{notams}."
           }
         },
         "closingStatement": {
