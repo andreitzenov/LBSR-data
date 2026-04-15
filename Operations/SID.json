@@ -85,27 +85,27 @@
       "runways": {
         "04": {
           "rnav": [
-            "ARNOV2S",
-            "BUVAK2S",
-            "GONGO1S",
-            "MEDEM3S",
-            "RUEXX1S",
-            "TUGSO1S",
-            "XILTI2S"
+            "ARNOV3S",
+            "BUVAK3S",
+            "GONGO2S",
+            "MEDEM4S",
+            "RUEXX2S",
+            "TUGSO2S",
+            "XILTI3S"
           ],
           "nonrnav": []
         },
         "22": {
           "rnav": [
-            "ARNOV4V",
-            "BUVAK2V",
-            "GONGO2V",
-            "RUEXX1V",
-            "TUGSO1V",
-            "MEDEM2V",
-            "MEDEM2T",
-            "XILTI2V",
-            "XILTI2T"
+            "ARNOV5V",
+            "BUVAK3V",
+            "GONGO3V",
+            "RUEXX2V",
+            "TUGSO2V",
+            "MEDEM3V",
+            "MEDEM3T",
+            "XILTI3V",
+            "XILTI3T"
           ],
           "nonrnav": []
         }
