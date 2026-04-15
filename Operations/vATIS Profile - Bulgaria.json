@@ -70,33 +70,38 @@
       ],
       "notamDefinitions": [
         {
-          "text": "FOR CLEARANCE DELIVERY CONTACT 127.255",
+          "text": "CDM IN USE, MONITOR VATS.IM/VDGS",
           "ordinal": 1,
-          "enabled": false
+          "enabled": true
         },
         {
-          "text": "TWY R CLSD DUE TO OPR REASONS",
+          "text": "FOR CLEARANCE DELIVERY CONTACT 127.255",
           "ordinal": 2,
           "enabled": false
         },
         {
-          "text": "FLOCK OF BIRDS IN THE VC OF THE RWY, ALT UNKNOWN",
+          "text": "TWY R CLSD DUE TO OPR REASONS",
           "ordinal": 3,
           "enabled": false
         },
         {
-          "text": "MOD ICING AT/ABOVE 0000FT",
+          "text": "FLOCK OF BIRDS IN THE VC OF THE RWY, ALT UNKNOWN",
           "ordinal": 4,
           "enabled": false
         },
         {
-          "text": "MOD TURB AT/ABOVE 0000FT",
+          "text": "MOD ICING AT/ABOVE 0000FT",
           "ordinal": 5,
           "enabled": false
         },
         {
-          "text": "CAUTION! LASER ACTIVITY IN THE VC OF THE ARFLD",
+          "text": "MOD TURB AT/ABOVE 0000FT",
           "ordinal": 6,
+          "enabled": false
+        },
+        {
+          "text": "CAUTION! LASER ACTIVITY IN THE VC OF THE ARFLD",
+          "ordinal": 7,
           "enabled": false
         }
       ],
@@ -395,28 +400,33 @@
       ],
       "notamDefinitions": [
         {
-          "text": "TWY D IS CLSD",
+          "text": "CDM IN USE, MONITOR VATS.IM/VDGS",
           "ordinal": 1,
           "enabled": true
         },
         {
-          "text": "FLOCK OF BIRDS IN THE VC OF THE RWY, ALT UNKNOWN",
+          "text": "TWY D IS CLSD",
           "ordinal": 2,
-          "enabled": false
+          "enabled": true
         },
         {
-          "text": "MOD ICING AT/ABOVE 0000FT",
+          "text": "FLOCK OF BIRDS IN THE VC OF THE RWY, ALT UNKNOWN",
           "ordinal": 3,
           "enabled": false
         },
         {
-          "text": "MOD TURB AT/ABOVE 0000FT",
+          "text": "MOD ICING AT/ABOVE 0000FT",
           "ordinal": 4,
           "enabled": false
         },
         {
-          "text": "CAUTION! LASER ACTIVITY IN THE VC OF THE ARFLD",
+          "text": "MOD TURB AT/ABOVE 0000FT",
           "ordinal": 5,
+          "enabled": false
+        },
+        {
+          "text": "CAUTION! LASER ACTIVITY IN THE VC OF THE ARFLD",
+          "ordinal": 6,
           "enabled": false
         }
       ],
@@ -721,23 +731,28 @@
       ],
       "notamDefinitions": [
         {
-          "text": "FLOCK OF BIRDS IN THE VC OF THE RWY, ALT UNKNOWN",
+          "text": "CDM IN USE, MONITOR VATS.IM/VDGS",
           "ordinal": 1,
-          "enabled": false
+          "enabled": true
         },
         {
-          "text": "MOD ICING AT/ABOVE 0000FT",
+          "text": "FLOCK OF BIRDS IN THE VC OF THE RWY, ALT UNKNOWN",
           "ordinal": 2,
           "enabled": false
         },
         {
-          "text": "MOD TURB AT/ABOVE 0000FT",
+          "text": "MOD ICING AT/ABOVE 0000FT",
           "ordinal": 3,
           "enabled": false
         },
         {
-          "text": "CAUTION! LASER ACTIVITY IN THE VC OF THE ARFLD",
+          "text": "MOD TURB AT/ABOVE 0000FT",
           "ordinal": 4,
+          "enabled": false
+        },
+        {
+          "text": "CAUTION! LASER ACTIVITY IN THE VC OF THE ARFLD",
+          "ordinal": 5,
           "enabled": false
         }
       ],
@@ -1026,38 +1041,43 @@
       ],
       "notamDefinitions": [
         {
-          "text": "DME PDV OUT OF USE",
+          "text": "CDM IN USE, MONITOR VATS.IM/VDGS",
           "ordinal": 1,
+          "enabled": true
+        },
+        {
+          "text": "DME PDV OUT OF USE",
+          "ordinal": 2,
           "enabled": false
         },
         {
           "text": "FLOCK OF BIRDS IN THE VC OF THE RWY, ALT UNKNOWN",
-          "ordinal": 2,
-          "enabled": false
-        },
-		{
-          "text": "ILS W OR LOC W RWY 30 NOT AVAILABLE",
           "ordinal": 3,
           "enabled": false
         },
 		{
-          "text": "VOR APP RWYS 12 AND 30 NOT AVAILABLE",
+          "text": "ILS W OR LOC W RWY 30 NOT AVAILABLE",
           "ordinal": 4,
           "enabled": false
         },
-        {
-          "text": "MOD ICING AT/ABOVE 0000FT",
+		{
+          "text": "VOR APP RWYS 12 AND 30 NOT AVAILABLE",
           "ordinal": 5,
           "enabled": false
         },
         {
-          "text": "MOD TURB AT/ABOVE 0000FT",
+          "text": "MOD ICING AT/ABOVE 0000FT",
           "ordinal": 6,
           "enabled": false
         },
         {
-          "text": "CAUTION! LASER ACTIVITY IN THE VC OF THE ARFLD",
+          "text": "MOD TURB AT/ABOVE 0000FT",
           "ordinal": 7,
+          "enabled": false
+        },
+        {
+          "text": "CAUTION! LASER ACTIVITY IN THE VC OF THE ARFLD",
+          "ordinal": 8,
           "enabled": false
         }
       ],
@@ -1346,9 +1366,9 @@
       ],
       "notamDefinitions": [
         {
-          "text": "THE AIRPORT IS NOT OPERATING UNTIL 06 UTC",
+          "text": "CDM IN USE, MONITOR VATS.IM/VDGS",
           "ordinal": 1,
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "FLOCK OF BIRDS IN THE VC OF THE RWY, ALT UNKNOWN",
