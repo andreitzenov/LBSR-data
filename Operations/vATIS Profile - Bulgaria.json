@@ -2,7 +2,7 @@
   "name": "Bulgaria",
   "id": "f2779102-cdce-40cc-8c46-45d3f1408e0e",
   "updateUrl": "https://raw.githubusercontent.com/andreitzenov/LBSR-data/refs/heads/main/Operations/vATIS%20Profile%20-%20Bulgaria.json",
-  "updateSerial": 2026050101,
+  "updateSerial": 2026050102,
   "composites": [
     {
       "id": "5349f49e-4119-4d32-a2e0-85540598c5c1",
@@ -721,28 +721,33 @@
       ],
       "notamDefinitions": [
         {
-          "text": "CDM IN USE, MONITOR VATS.IM/VDGS",
+          "text": "APRON LAYOUT HAS CHANGED. ATC OPERATING ON OLD LAYOUT DUE TO LACK OF NEW SCENERY",
           "ordinal": 1,
           "enabled": true
         },
         {
-          "text": "FLOCK OF BIRDS IN THE VC OF THE RWY, ALT UNKNOWN",
+          "text": "CDM IN USE, MONITOR VATS.IM/VDGS",
           "ordinal": 2,
-          "enabled": false
+          "enabled": true
         },
         {
-          "text": "MOD ICING AT/ABOVE 0000FT",
+          "text": "FLOCK OF BIRDS IN THE VC OF THE RWY, ALT UNKNOWN",
           "ordinal": 3,
           "enabled": false
         },
         {
-          "text": "MOD TURB AT/ABOVE 0000FT",
+          "text": "MOD ICING AT/ABOVE 0000FT",
           "ordinal": 4,
           "enabled": false
         },
         {
-          "text": "CAUTION! LASER ACTIVITY IN THE VC OF THE ARFLD",
+          "text": "MOD TURB AT/ABOVE 0000FT",
           "ordinal": 5,
+          "enabled": false
+        },
+        {
+          "text": "CAUTION! LASER ACTIVITY IN THE VC OF THE ARFLD",
+          "ordinal": 6,
           "enabled": false
         }
       ],
