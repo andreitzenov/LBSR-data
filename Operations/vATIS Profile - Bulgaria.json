@@ -2,7 +2,7 @@
   "name": "Bulgaria",
   "id": "f2779102-cdce-40cc-8c46-45d3f1408e0e",
   "updateUrl": "https://raw.githubusercontent.com/andreitzenov/LBSR-data/refs/heads/main/Operations/vATIS%20Profile%20-%20Bulgaria.json",
-  "updateSerial": 2026041602,
+  "updateSerial": 2026050101,
   "composites": [
     {
       "id": "5349f49e-4119-4d32-a2e0-85540598c5c1",
@@ -671,17 +671,7 @@
       "airportConditionsBeforeFreeText": false,
       "notamsBeforeFreeText": true,
       "presets": [
-        {
-          "id": "1c879da6-4c0a-4b65-a0e1-0a2b785c2495",
-          "name": "CLOSED",
-          "airportConditions": "",
-          "notams": "CTR AND TMA BURGAS UP TO 10500FT DOWNGRADED TO UNCONTROLLED AIRSPACE CLASS G. ATC SERV NOT AVBL. DEPARTING AIRCRAFT CONTACT ATC WHEN PASSING 10500FT.",
-          "template": "[NOTAMS]",
-          "externalGenerator": {
-            "enabled": false
-          }
-        },
-	{
+	      {
           "id": "1c879da6-4c0a-4b65-a0e1-0a2b785c2495",
           "name": "RUNWAY 04",
           "airportConditions": "RNP APPR, RWY IN USE 04, TRANSITION LEVEL ONE TWO ZERO.",
@@ -718,7 +708,7 @@
           "ordinal": 1,
           "enabled": false
         },
-	{
+	      {
           "text": "RCR: 0000Z RWYCC 5/5/5",
           "ordinal": 2,
           "enabled": false
@@ -733,7 +723,7 @@
         {
           "text": "CDM IN USE, MONITOR VATS.IM/VDGS",
           "ordinal": 1,
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "FLOCK OF BIRDS IN THE VC OF THE RWY, ALT UNKNOWN",
