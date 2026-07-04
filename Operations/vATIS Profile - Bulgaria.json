@@ -1,8 +1,8 @@
 {
-  "name": "Bulgaria v2.5",
+  "name": "Bulgaria v2.6",
   "id": "f2779102-cdce-40cc-8c46-45d3f1408e0e",
   "updateUrl": "https://raw.githubusercontent.com/andreitzenov/LBSR-data/refs/heads/main/Operations/vATIS%20Profile%20-%20Bulgaria.json",
-  "updateSerial": 2026050103,
+  "updateSerial": 2026070401,
   "composites": [
     {
       "id": "5349f49e-4119-4d32-a2e0-85540598c5c1",
@@ -27,7 +27,7 @@
         {
           "id": "58dbff60-8fca-430d-9eb8-355623b60c2d",
           "name": "RUNWAY 27",
-          "airportConditions": "ILS Z APPR, RWY IN USE 27, TRANSITION LEVEL ONE TWO ZERO.",
+          "airportConditions": "RNP APPR, RWY IN USE 27, TRANSITION LEVEL ONE TWO ZERO.",
           "notams": "",
           "template": "THIS IS SOFIA INFORMATION [ATIS_CODE]. ATIS REPORT AT [OBS_TIME]. [ARPT_COND]. WIND RWY 27 TOUCHDOWN ZONE [FULL_WX_STRING]. [NOTAMS] ADVISE YOU HAVE RECEIVED INFORMATION [ATIS_CODE].",
           "externalGenerator": {
@@ -70,38 +70,43 @@
       ],
       "notamDefinitions": [
         {
-          "text": "CDM IN USE, MONITOR VATS.IM/VDGS",
+          "text": "ILS APPR RWY 27 OUT OF USE",
           "ordinal": 1,
+          "enabled": true
+        },
+	{
+          "text": "CDM IN USE, MONITOR VATS.IM/VDGS",
+          "ordinal": 2,
           "enabled": true
         },
         {
           "text": "FOR CLEARANCE DELIVERY CONTACT 127.255",
-          "ordinal": 2,
-          "enabled": false
-        },
-        {
-          "text": "TWY R CLSD DUE TO OPR REASONS",
           "ordinal": 3,
           "enabled": false
         },
         {
-          "text": "FLOCK OF BIRDS IN THE VC OF THE RWY, ALT UNKNOWN",
+          "text": "TWY R CLSD DUE TO OPR REASONS",
           "ordinal": 4,
           "enabled": false
         },
         {
-          "text": "MOD ICING AT/ABOVE 0000FT",
+          "text": "FLOCK OF BIRDS IN THE VC OF THE RWY, ALT UNKNOWN",
           "ordinal": 5,
           "enabled": false
         },
         {
-          "text": "MOD TURB AT/ABOVE 0000FT",
+          "text": "MOD ICING AT/ABOVE 0000FT",
           "ordinal": 6,
           "enabled": false
         },
         {
-          "text": "CAUTION! LASER ACTIVITY IN THE VC OF THE ARFLD",
+          "text": "MOD TURB AT/ABOVE 0000FT",
           "ordinal": 7,
+          "enabled": false
+        },
+        {
+          "text": "CAUTION! LASER ACTIVITY IN THE VC OF THE ARFLD",
+          "ordinal": 8,
           "enabled": false
         }
       ],
